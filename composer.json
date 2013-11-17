@@ -33,7 +33,8 @@
 			"Validators.php"
 		],
 		"psr-0": {
-			"ValueValidators\\": "src"
+			"DataValues\\": "src",
+			"ValueFormatters\\": "src"
 		}
 	}
 }
