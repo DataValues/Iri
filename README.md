@@ -5,6 +5,7 @@ DataValues Iri is a small library that contains IRI value objects, parsers and f
 It is part of the [DataValues set of libraries](https://github.com/DataValues).
 
 [![Build Status](https://secure.travis-ci.org/DataValues/Iri.png?branch=master)](http://travis-ci.org/DataValues/Iri)
+[![Coverage Status](https://coveralls.io/repos/DataValues/Iri/badge.png)](https://coveralls.io/r/DataValues/Iri)
 
 On [Packagist](https://packagist.org/packages/data-values/iri):
 [![Latest Stable Version](https://poser.pugx.org/data-values/iri/version.png)](https://packagist.org/packages/data-values/iri)
@@ -46,7 +47,7 @@ DataValues Iri has been written by [Jeroen De Dauw] (https://github.com/JeroenDe
 
 ## Release notes
 
-### 0.1 (dev)
+### 0.1 (2013-11-17)
 
 Initial release with these features:
 
