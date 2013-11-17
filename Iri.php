@@ -25,7 +25,7 @@ if ( defined( 'MEDIAWIKI' ) ) {
 		'author' => array(
 			'[https://www.mediawiki.org/wiki/User:Jeroen_De_Dauw Jeroen De Dauw]'
 		),
-		'url' => 'https://github.com/DataValues/Validators',
+		'url' => 'https://github.com/DataValues/Iri',
 		'description' => 'Iri value objects, parsers and formatters',
 	);
 }

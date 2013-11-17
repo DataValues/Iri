@@ -1,5 +1,5 @@
 {
-	"name": "data-values/validators",
+	"name": "data-values/iri",
 	"type": "library",
 	"description": "IRI value objects, parsers and formatters",
 	"keywords": [
@@ -30,7 +30,7 @@
 	},
 	"autoload": {
 		"files" : [
-			"Validators.php"
+			"Iri.php"
 		],
 		"psr-0": {
 			"DataValues\\": "src",
