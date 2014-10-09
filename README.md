@@ -7,6 +7,7 @@ It is part of the [DataValues set of libraries](https://github.com/DataValues).
 [![Build Status](https://secure.travis-ci.org/DataValues/Iri.png?branch=master)](http://travis-ci.org/DataValues/Iri)
 [![Code Coverage](https://scrutinizer-ci.com/g/DataValues/Iri/badges/coverage.png?s=10ee05d60b5246cfd5df438b63c4d5dae4b4c5a7)](https://scrutinizer-ci.com/g/DataValues/Iri/)
 [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/DataValues/Iri/badges/quality-score.png?s=9bdf21bb15c3d7b9cede985fdacf7e37b507e899)](https://scrutinizer-ci.com/g/DataValues/Iri/)
+[![Dependency Status](https://www.versioneye.com/php/data-values:iri/badge.png)](https://www.versioneye.com/php/data-values:iri)
 
 On [Packagist](https://packagist.org/packages/data-values/iri):
 [![Latest Stable Version](https://poser.pugx.org/data-values/iri/version.png)](https://packagist.org/packages/data-values/iri)
