@@ -49,6 +49,10 @@ DataValues Iri has been written by [Jeroen De Dauw] (https://github.com/JeroenDe
 
 ## Release notes
 
+### 0.1.1 (2014-10-16)
+
+* Installation together with DataValues 1.x is now supported.
+
 ### 0.1 (2013-11-17)
 
 Initial release with these features:
