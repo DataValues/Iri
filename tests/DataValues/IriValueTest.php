@@ -3,6 +3,8 @@
 namespace DataValues\Tests;
 
 use DataValues\IriValue;
+use PHPUnit\Framework\TestCase;
+use ReflectionClass;
 
 /**
  * @covers DataValues\IriValue
@@ -18,7 +20,8 @@ use DataValues\IriValue;
  * @licence GNU GPL v2+
  * @author Jeroen De Dauw < jeroendedauw@gmail.com >
  */
-class IriValueTest extends DataValueTest {
+class IriValueTest extends TestCase {
+
 
 	/**
 	 * @see DataValueTest::getClass
@@ -29,6 +32,37 @@ class IriValueTest extends DataValueTest {
 	 */
 	public function getClass() {
 		return 'DataValues\IriValue';
+	}
+
+	/**
+	 * Creates and returns a new instance of the concrete class.
+	 *
+	 * @since 0.1
+	 *
+	 * @return mixed
+	 */
+	private function newInstance() {
+		$reflector = new ReflectionClass( $this->getClass() );
+		$args = func_get_args();
+		$instance = $reflector->newInstanceArgs( $args );
+		return $instance;
+	}
+
+	/**
+	 * @since 0.1
+	 *
+	 * @return array [instance, constructor args]
+	 */
+	public function instanceProvider() {
+		return array_map(
+			function ( array $args ) {
+				return [
+					$this->newInstance( ...$args ),
+					$args
+				];
+			},
+			$this->validConstructorArgumentsProvider()
+		);
 	}
 
 	public function validConstructorArgumentsProvider() {
@@ -147,12 +181,12 @@ class IriValueTest extends DataValueTest {
 		$args = func_get_args();
 		$expected = array_shift( $args );
 
-		$reflector = new \ReflectionClass( $this->getClass() );
+		$reflector = new ReflectionClass( $this->getClass() );
 		$instance = $reflector->newInstanceArgs( $args );
 
 		$actual = $instance->getValue();
 
-		$this->assertInternalType( 'string', $actual );
+		$this->assertIsString( $actual );
 		$this->assertEquals( $expected, $actual );
 	}
 
