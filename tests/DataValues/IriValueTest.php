@@ -186,7 +186,7 @@ class IriValueTest extends TestCase {
 
 		$actual = $instance->getValue();
 
-		$this->assertInternalType( 'string', $actual );
+		$this->assertIsString( $actual );
 		$this->assertEquals( $expected, $actual );
 	}
 
