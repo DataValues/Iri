@@ -28,6 +28,9 @@
 		"data-values/data-values": "~1.0|~0.1",
 		"data-values/interfaces": "~0.1"
 	},
+	"require-dev": {
+		"phpunit/phpunit": "^8.5"
+	},
 	"autoload": {
 		"files" : [
 			"Iri.php"
@@ -36,5 +39,10 @@
 			"DataValues\\": "src",
 			"ValueFormatters\\": "src"
 		}
+	},
+	"scripts": {
+		"test": [
+			"phpunit"
+		]
 	}
 }
