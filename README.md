@@ -4,7 +4,6 @@ DataValues Iri is a small library that contains IRI value objects, parsers and f
 
 It is part of the [DataValues set of libraries](https://github.com/DataValues).
 
-[![Build Status](https://secure.travis-ci.org/DataValues/Iri.png?branch=master)](http://travis-ci.org/DataValues/Iri)
 [![Code Coverage](https://scrutinizer-ci.com/g/DataValues/Iri/badges/coverage.png?s=10ee05d60b5246cfd5df438b63c4d5dae4b4c5a7)](https://scrutinizer-ci.com/g/DataValues/Iri/)
 [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/DataValues/Iri/badges/quality-score.png?s=9bdf21bb15c3d7b9cede985fdacf7e37b507e899)](https://scrutinizer-ci.com/g/DataValues/Iri/)
 [![Dependency Status](https://www.versioneye.com/php/data-values:iri/badge.png)](https://www.versioneye.com/php/data-values:iri)
@@ -40,7 +39,7 @@ Then take care of autoloading the classes defined in the src directory.
 
 This library comes with a set up PHPUnit tests that cover all non-trivial code. You can run these
 tests using the PHPUnit configuration file found in the root directory. The tests can also be run
-via TravisCI, as a TravisCI configuration file is also provided in the root directory.
+via Github Actions.
 
 ## Authors
 
@@ -63,4 +62,3 @@ Initial release with these features:
 ## Links
 
 * [DataValues Iri on Packagist](https://packagist.org/packages/data-values/iri)
-* [DataValues Iri on TravisCI](https://travis-ci.org/DataValues/Iri)
